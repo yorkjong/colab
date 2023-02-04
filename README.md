@@ -1,6 +1,6 @@
 ### Google Colab
 
-After discovering the usefulness of Google Colab, I ran some small programs there as practice. Some of them were interesting, so I moved them to this GitHub repository to share.
+After discovering the usefulness of Google Colab, I ran some small programs there as practice. Some of them were interesting, so I moved them to [this GitHub repository](https://github.com/YorkJong/Colab) to share.
 
 ### PytorchTutorial Series
 
