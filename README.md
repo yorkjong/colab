@@ -1,8 +1,13 @@
-### Google Colab
+### Back up my notebooks on Google Colab
 
 After discovering the usefulness of Google Colab, I ran some small programs there as practice. Some of them were interesting, so I moved them to [this GitHub repository](https://github.com/YorkJong/Colab) to share.
 
-### PytorchTutorial Series
+These notebooks are currently divided into the following categories:
+
+* Pytorch Tutorial Series
+* Visualizing Stocks
+
+### Pytorch Tutorial Series
 
 This Colab notebook files of PytorchTutorial series includes the following:
 
