@@ -26,7 +26,19 @@ The following chart is the final result from [PytorchTutorial7_CNN.ipynb](https:
 
 ### Visualizing Stocks
 
-Initially, just for fun, I gave ChatGPT a simple task, to write a program to draw basic charts such as candlesticks, moving average line, and volume. However, after ChatGPT struggled for a whole day, it still couldn't produce accurate results. So I had to roll up my sleeves, with the assistance of ChatGPT, and spend two days studying Plotly to finally achieve the current result. The following is its Colab notebook file.
+Initially, just for fun, I gave ChatGPT a simple task, to write a program to draw basic charts such as candlesticks, moving average lines, and volume. However, after ChatGPT struggled for a whole day, it still couldn't produce accurate results. So I had to roll up my sleeves, with the assistance of ChatGPT, and spend two days studying Plotly to finally achieve the current result. The following is its Colab notebook file.
 
 * [ViStock.ipynb](https://github.com/YorkJong/Colab/blob/3c8181e391d9f4215db19717c3473c8e4894224d/ViStock.ipynb)
+
+I retrieve the historical data of a stock using yfinance, after obtaining the stock's DataFrame table, I plot related charts using both mplfinance (Matplotlib backend) and Plotly. Below is the stock price and volume accumulation chart of Tesla, the former is plotted using mplfinance and the latter is plotted using Plotly.
+
+![TSLA_20230203_VolumeProfile_mpl](https://user-images.githubusercontent.com/11453572/216813644-fcc4aa48-af00-47a5-af72-d79821c96b89.png)
+![TSLA_20230203_VolumeProfile_Plotly](https://user-images.githubusercontent.com/11453572/216813652-690de806-f5c2-40d0-9692-a3be27fe0e57.png)
+
+
+
+
+
+
+
 
