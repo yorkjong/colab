@@ -30,7 +30,9 @@ Initially, just for fun, I gave ChatGPT a simple task, to write a program to dra
 
 * [ViStock.ipynb](https://github.com/YorkJong/Colab/blob/3c8181e391d9f4215db19717c3473c8e4894224d/ViStock.ipynb)
 
-I retrieve the historical data of a stock using yfinance, after obtaining the stock's DataFrame table, I plot related charts using both mplfinance (Matplotlib backend) and Plotly. Below is the stock price and volume accumulation chart of Tesla, the former is plotted using mplfinance and the latter is plotted using Plotly.
+I retrieve the historical data of a stock using [yfinance](https://pypi.org/project/yfinance/), after obtaining the stock's [DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) table, I plot related charts using both [mplfinance](https://github.com/matplotlib/mplfinance) (a Matplotlib utilities for the visualization, and visual analysis, of financial data) and [Plotly](https://plotly.com/python/). I also tried using [TA-Lib](https://github.com/TA-Lib/ta-lib-python) with mplfinance to plot technical analysis indicators.
+
+As an example, below is the stock price and volume accumulation chart of Tesla, the former is plotted using mplfinance and the latter is plotted using Plotly.
 
 ![TSLA_20230203_VolumeProfile_mpl](https://user-images.githubusercontent.com/11453572/216813644-fcc4aa48-af00-47a5-af72-d79821c96b89.png)
 ![TSLA_20230203_VolumeProfile_Plotly](https://user-images.githubusercontent.com/11453572/216813652-690de806-f5c2-40d0-9692-a3be27fe0e57.png)
