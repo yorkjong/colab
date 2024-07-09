@@ -33,7 +33,7 @@ The following chart is the final result from [PytorchTutorial7_CNN.ipynb](https:
 Initially, just for fun, I gave ChatGPT a simple task, to write a program to draw basic charts such as candlesticks, moving average lines, and volume. However, after ChatGPT struggled for a whole day, it still couldn't produce accurate results. So I had to roll up my sleeves, with the assistance of ChatGPT, and spend two days studying Plotly to finally achieve the current result. The following is its Colab notebook file.
 
 * [ViStock.ipynb](https://github.com/YorkJong/Colab/blob/main/ViStock.ipynb)
-  * Please also refer to [vistock_demo.ipynb](https://github.com/YorkJong/vistock/blob/main/examples/vistock_demo.ipynb) which is a demonstration of the extending project.
+  * Please also refer to [vistock_demo.ipynb](https://github.com/YorkJong/vistock/blob/main/notebooks/vistock_demo.ipynb) which is a demonstration of the extending project.
 
 I retrieve the historical data of a stock using [yfinance](https://pypi.org/project/yfinance/), after obtaining the stock's [DataFrame](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) table, I plot related charts using both [mplfinance](https://github.com/matplotlib/mplfinance) (a Matplotlib utilities for the visualization, and visual analysis, of financial data) and [Plotly](https://plotly.com/python/). I also tried using [TA-Lib](https://github.com/TA-Lib/ta-lib-python) with mplfinance to plot technical analysis indicators.
 
